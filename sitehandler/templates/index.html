@@ -1,0 +1,18 @@
+{% include 'include.html' %}
+{% include 'navbar.html' %}
+{% block body %}
+<section class="general-area-home">
+        <h1>Book your time with your doctor freely</h1>
+        <h3>create an account and save your profile</h3>
+        <div class="row" id="row1">
+            <div class="col offset-lg-0">
+                <h2>New to this website..</h2><a class="btn btn-primary" href="{% url 'createaccountpage' %}">Create Account</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p class="text-center">Using this website, you can schedule a consultation with the specific physician you wish to see, as well as examine previous visits, prescriptions, and reports.</p>
+            </div>
+        </div>
+</section>
+{% endblock %}
