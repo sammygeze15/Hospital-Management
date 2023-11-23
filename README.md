@@ -1,4 +1,4 @@
-# Django-based-Hospital-Mangament-System
+# Hospital Management System
 
 ## Project running live @http://hmsindjango.herokuapp.com/
 
